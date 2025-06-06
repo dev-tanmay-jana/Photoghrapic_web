@@ -391,7 +391,10 @@ h5{
 }
 
 @media screen and (max-width: 550px) {
-  .navbar{
+    header{
+        width: auto;
+    }
+    .navbar{
      height: 2.5cm;
      color: #fff;
      justify-content: space-around;
