@@ -9,12 +9,14 @@
 </head>
 <body >
     <header id="navbar" class="navbar">
-         <a><button class="bar"><i class="fa-solid fa-bars"></i></button></a>
-        <a href="index.html"><button class="btn"><i class="fa fa-home"></i> HOME</button></a>
-        <a href="photos.html"><button class="btn"><i class="fa-regular fa-image"></i> PHOTOS</button></a>
-        <a href="ourwrork.html"><button class="btn"><i class="fa-solid fa-video"></i>OUR_WORK</button></a>
-        <a href="group_member.html"><button class="btn"><i class="fa-solid fa-user-group"></i>GROUP_MEMBER</button></a>
-        <a href="booking.html"><button class="btn"><i class="fa-solid fa-share-from-square"></i> BOOKING</button></a>
+         <button class="bar"  ><i class="fa-solid fa-bars" onclick="togglemenue()"></i></button>
+        <ul id="boxlist">
+        <li><a href="index.html"><button class="btn"><i class="fa fa-home"></i> HOME</button></a></li>
+        <li><a href="photos.html"><button class="btn"><i class="fa-regular fa-image"></i> PHOTOS</button></a></li>
+        <li><a href="ourwrork.html"><button class="btn"><i class="fa-solid fa-video"></i>OUR_WORK</button></a></li>
+        <li><a href="group_member.html"><button class="btn"><i class="fa-solid fa-user-group"></i>GROUP_MEMBER</button></a></li>
+        <li><a href="booking.html"><button class="btn"><i class="fa-solid fa-share-from-square"></i> BOOKING</button></a></li>
+        </ul>
         <input class="search" placeholder="Search..."/>
     </header>
     <br>
@@ -23,9 +25,8 @@
                 <h1 CLASS="royal" d="royal">ROYAL <i class="fa-solid fa-camera"></i></h1>
                 <h1 class="celebration" id="celebration"><i class="fa-solid fa-film"></i> CELEBRATATION</h1>
             </div>
-            
             <div class="work_home">
-                <a href="booking.html"><button class="booking_button">
+                        <a href="booking.html"><button class="booking_button">
                         BOOK for any Session?
                 </button></a>
                 <div class="work1">
@@ -134,5 +135,6 @@
             <p>Privecy policy</p>
             </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
